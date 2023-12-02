@@ -40,7 +40,7 @@ while (true)
 
 
 // Метод для вычисления суммы цифр числа.
-static int CDS(int num) // CDS = CalculateDigitSum
+int CDS(int num) // CDS = CalculateDigitSum
 {
     int sum = 0;
     while (num != 0)
